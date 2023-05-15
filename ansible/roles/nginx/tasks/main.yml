@@ -1,0 +1,10 @@
+- name: apply nginx template
+  template:
+    src: "files/nginx_config.j2"
+    dest: "/etc/nginx/sites-available/default"
+
+- name: restart nginx
+  systemd:
+    name: nginx
+    enabled: true
+    state: restarted

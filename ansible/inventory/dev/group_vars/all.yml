@@ -1,0 +1,22 @@
+ansible_ssh_private_key_file: ~/diploma/key
+ansible_become: true
+
+base_packadges:
+  - nginx
+  - php
+  - git
+  - ufw
+
+#git repo and directory for checkout
+git_repo: "https://github.com/baldezhh/diploma-site.git"
+git_dir: "/tmp/checkout/"
+
+#root for nginx
+site_dir: "/site"
+
+#path to site after checkout
+src_site_dir: "/tmp/checkout/"
+
+firewall_allow_ports:
+- 22
+- 80

@@ -1,0 +1,7 @@
+- name: Deploy Firewall on servers
+  hosts: all
+  become: true
+  roles:
+    - firewall
+  tags:
+    - firewall

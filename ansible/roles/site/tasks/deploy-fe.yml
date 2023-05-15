@@ -1,0 +1,6 @@
+- name: copy frontend
+  copy:
+    src: "{{src_site_dir}}"
+    dest: "{{site_dir}}/"
+    remote_src: true
+    directory_mode: true

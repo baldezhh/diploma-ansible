@@ -1,0 +1,6 @@
+- hosts: lb
+  become: true
+  roles:
+    - nginx-lb
+  tags:
+    - nginx-lb

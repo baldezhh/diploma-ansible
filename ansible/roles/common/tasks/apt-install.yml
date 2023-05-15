@@ -1,0 +1,5 @@
+- name: Install packadges
+  ansible.builtin.apt:
+    name: "{{item}}"
+    state: present
+  with_items: "{{base_packadges}}"

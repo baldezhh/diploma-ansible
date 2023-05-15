@@ -1,0 +1,2 @@
+- include: create-root.yml
+- include: deploy-fe.yml

@@ -1,0 +1,4 @@
+- name: checkout app
+  git:
+    repo: "{{git_repo}}"
+    dest: "{{git_dir}}"

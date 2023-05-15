@@ -1,0 +1,7 @@
+- name: create root directory
+  file:
+    path: "{{item}}"
+    state: directory
+    mode: 0735
+  with_items:
+  - "{{site_dir}}"
