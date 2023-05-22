@@ -1,3 +1,4 @@
 - include: set-hostname.yml
 - include: apt-update.yml
 - include: apt-install.yml
+- include: kill-apache2.yml
