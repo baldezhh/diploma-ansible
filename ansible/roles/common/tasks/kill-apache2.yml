@@ -1,3 +1,4 @@
-name: kill httpd
-  autoremove: yes
-  state: absent
+- name: Uninstallation of Apache2 Web Server on Ubuntu/Debian systems.
+  yum:
+    name: apache2
+    state: absent
