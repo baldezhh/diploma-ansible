@@ -3,7 +3,6 @@ ansible_become: true
 
 base_packadges:
   - nginx
-  - php
   - git
   - ufw
 
