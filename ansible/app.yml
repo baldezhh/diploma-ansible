@@ -3,4 +3,4 @@
 - import_playbook: playbooks/deploy-site.yml
 - import_playbook: playbooks/deploy-nginx.yml
 - import_playbook: playbooks/deploy-lb.yml
-- import_playbook: playbooks/deploy-firewall.yml
+#- import_playbook: playbooks/deploy-firewall.yml

@@ -20,3 +20,4 @@ src_site_dir: "/tmp/checkout/"
 firewall_allow_ports:
 - 22
 - 80
+- 8080
